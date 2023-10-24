@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&display=swap');
+@media (max-width: 800px) {
+
+
+
+    .nav {
+        padding: 10%;
+        justify-content: center;
+
+    }
+
+    .conteiner {
+        flex-direction: column-reverse;
+        width: auto;
+        gap: 40px;
+
+    }
+
+    .secao {
+
+        padding: 20%;
+    }
+
+
+
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+}
+
+body {
+
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.destaque {
+    color: rgba(255, 201, 4, 0.97);
+    font-weight: 200;
+}
+
+.conteiner {
+    padding: 6% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.secao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+
+
+}
+
+.h1 {
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.btn {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+}
+
+
+.btn-1 {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 40%;
+    border: solid 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border: solid 0.5px white;
+    border-radius: 16px;
+    filter: grayscale(10);
+}
+
+.texto-1 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.texto-2 {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: rgba(255, 201, 4, 0.97);
+    height: 50px;
+    width: 100%;
+    font-size: 1.06rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.btn-2 {
+    text-decoration: none;
+    color: rgba(255, 201, 4, 0.97);
+}
+
+.btn {
+    color: rgba(255, 201, 4, 0.97);
+    margin-right: 5px;
+}
+
+.btn-1:hover {
+
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.nav {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-2 {
+    justify-content: space-between;
+    display: flex;
+    padding: 2% 0 0 10%;
+    gap: 80px;
+}
+
+.nav-2 {
+    display: flex;
+    gap: 80px;
+
+}
+
+.home-2 {
+    color: rgba(255, 201, 4, 0.97);
+    text-decoration: none;
+
+
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8%;
+
+}
+
+.titulo-do-sb {
+
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.paragrafo-2 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.paragrafo-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.secao-2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+
+
+.h2 {
+    background-color: rgba(255, 201, 4, 0.97);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.06rem;
+    color: black;
+    font-weight: 800;
+
+}
+
+.cabecalho-3 {
+    padding: 2% 0 0 10%;
+
+}
+
+.home-3 {
+    text-decoration: none;
+    color: rgba(255, 201, 4, 0.97)
+}
+
+
+.conteiner-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8%
+}
+
+.secao-3 {
+
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-3 {
+    font-weight: 300;
+}
+
+.lista {
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.paragrafo-curriculo {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.lista-4 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.lista-estudos {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.nav-3 {
+    display: flex;
+    gap: 80px;
+}
